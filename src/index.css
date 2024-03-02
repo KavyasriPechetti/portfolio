@@ -1,3 +1,4 @@
+
 .nav1{
   border: 2px solid;
   display: flex;
@@ -5,7 +6,7 @@
   align-items: center;
   justify-content: end;
   padding: 0px 20px;
-  background: linear-gradient();
+  background-color: aqua;
 }
 .name{
   margin: 0px 800px 10px 0px;
