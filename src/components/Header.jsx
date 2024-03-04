@@ -28,7 +28,7 @@ function Header() {
            <div className="para">
             <h1>I'm Kavya sri</h1>
             <h3>Frontend Developer</h3>
-            <h5>From Hyderabad</h5>
+            <h5>From Hyderabad</h5><br/>
             <div>
             <p>Passionate Frontend Developer dedicated to crafting exceptional user experiences through innovative web technologies.</p>
             <p>My journey in frontend development is fueled by a relentless curiosity and a commitment to staying at the forefront of</p>
