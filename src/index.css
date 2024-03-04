@@ -42,7 +42,8 @@ font-size: large;
   flex-wrap: wrap;
  align-items: center; 
  justify-content: space-evenly;
- margin: 40px 100px 40px 150px;
+ margin-left: 150px;
+ margin-right: 20px;
  
  text-align: center;
 }
@@ -54,10 +55,10 @@ font-size: large;
   box-shadow: 3px 3px 5px rgb(94, 93, 93);
 }
 .image{
-  margin: 30px 20px;
+  margin: 30px 30px;
 }
 .full{
-  margin-top:70px;
+  margin-top:20px;
 }
 
 .projects{
@@ -70,11 +71,11 @@ font-size: large;
 }
 .project{
   color: rgb(248, 250, 252);
-  height: 220px;
+  height: 170px;
 width: 300px;
   border: 2px solid white;
  padding: 10px;
-margin: 30px 100px;
+margin: 10px 100px 30px 100px;
 text-align: center;
 box-shadow: 5px 5px 3px rgb(85, 84, 84);
 border-radius: 10px;
@@ -83,10 +84,13 @@ backdrop-filter: blur(10px);
 }
 .btn{
   margin: 20px;
+  
 }
 .btn button{
   border-radius: 5px;
   background-color: rgb(243, 215, 177);
+  /* margin-bottom: 25px; */
+  height: 40px;
   
 }
 .skilldes{
@@ -105,7 +109,24 @@ backdrop-filter: blur(10px);
 .p p{
   font-size: large;
   font-style: italic;
- 
-  backdrop-filter: blur(5px);
+ width: 400px;
 }
-
+.assign{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.tasks{
+  border: 2px solid;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgb(158, 157, 157);
+  width: 270px;
+  text-align: center;
+  margin: 50px;
+}
+.tasks button{
+  margin: 30px;
+  border-radius: 5px;
+  height: 50px;
+}

@@ -17,24 +17,26 @@ import Contact from './components/Contact';
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Header/>,
+      element: <App/>,
     },
-    {
-        path: "/skills",
-        element: <Skills/>,
-      },
-      {
-        path: "/projects",
-        element: <Projects/>,
-      },
-      {
-        path: "/assignments",
-        element: <Assignments/>,
-      },
-      {
-        path: "/contact",
-        element: <Contact/>,
-      },
+        
+        {
+          path: "/skills",
+          element: <Skills/>,
+        },
+        {
+          path: "/projects",
+          element: <Projects/>,
+        },
+        {
+          path: "/assignments",
+          element: <Assignments/>,
+        },
+        {
+          path: "/contact",
+          element: <Contact/>,
+        },
+      
   ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
