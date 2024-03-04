@@ -2,7 +2,8 @@ import React from "react";
 
 function Projects() {
     return(
-        <div className="projects">
+        
+             <div className="projects">
            <div className="project">
             <h3>
                 Dictionary Web Application 
@@ -44,6 +45,8 @@ function Projects() {
             
            </div>
         </div>
+       
+       
     )
 }
 

@@ -41,20 +41,23 @@ font-size: large;
   display: flex;
   flex-wrap: wrap;
  align-items: center; 
- justify-content: center;
- margin: 50px 150px;
+ justify-content: space-evenly;
+ margin: 40px 100px 40px 150px;
  
  text-align: center;
 }
 .skills img{
   /* border: 2px solid; */
   border-radius: 10px;
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   box-shadow: 3px 3px 5px rgb(94, 93, 93);
 }
 .image{
-  margin: 30px 40px;
+  margin: 30px 20px;
+}
+.full{
+  margin-top:70px;
 }
 
 .projects{
@@ -69,13 +72,13 @@ font-size: large;
   color: rgb(248, 250, 252);
   height: 220px;
 width: 300px;
-  border: 2px solid grey;
+  border: 2px solid white;
  padding: 10px;
 margin: 30px 100px;
 text-align: center;
 box-shadow: 5px 5px 3px rgb(85, 84, 84);
 border-radius: 10px;
-background-color:rgb(119, 118, 118);
+/* background-color:rgb(173, 171, 173); */
 backdrop-filter: blur(10px);
 }
 .btn{
@@ -85,5 +88,24 @@ backdrop-filter: blur(10px);
   border-radius: 5px;
   background-color: rgb(243, 215, 177);
   
+}
+.skilldes{
+  display: flex;
+  align-items: center;
+ 
+}
+.p{
+  margin-left: 80px;
+  border: 2px solid;
+  border-radius: 5px;
+  box-shadow: 5px 5px 3px rgb(114, 114, 114);
+  padding: 15px;
+
+}
+.p p{
+  font-size: large;
+  font-style: italic;
+ 
+  backdrop-filter: blur(5px);
 }
 

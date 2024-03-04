@@ -2,6 +2,13 @@ import React from "react";
 
 function Skills() {
     return (
+        <div className="full">
+            <div className="skilldes">
+            <div className="p">
+                <p>As a skilled and highly motivated Engineering graduate, I bring expertise in a variety of <br/>
+                programming languages and technologies. My <br/>skill set includes: <br/><b>HTML, CSS, JavaScript, ReactJS, Redux, GitHub.</b><br/>With a solid foundation in these technologies, I <br/>am passionate about leveraging them to create<br/> innovative solutions and contribute effectively to collabarative projects.</p>
+               
+            </div>
         <div className="skills">
            <div className="image">
             <img src="https://static.vecteezy.com/system/resources/thumbnails/001/416/705/small_2x/html5-emblem-orange-shield-and-white-text-vector.jpg"/>
@@ -26,6 +33,9 @@ function Skills() {
            </div>
 
         </div>
+        </div>
+        </div>
+        
     )
 }
 
