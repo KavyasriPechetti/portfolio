@@ -1,12 +1,12 @@
 import './App.css';
-import Main from './components/Main';
 import "bootstrap/dist/css/bootstrap.css";
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App"> 
-      <Main></Main>
-    </div>
+      <Header></Header>
+    </div>   
    
   );
 }
