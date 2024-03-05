@@ -13,13 +13,17 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Assignments from './components/Assignments';
 import Contact from './components/Contact';
+import About from './components/About';
 
   const router = createBrowserRouter([
     {
       path: "/",
       element: <App/>,
-    },
-        
+      children:[
+        {
+          path:"/",
+          element:<About/>
+        },
         {
           path: "/skills",
           element: <Skills/>,
@@ -37,6 +41,10 @@ import Contact from './components/Contact';
           element: <Contact/>,
         },
       
+      ]
+    },
+        
+        
   ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
