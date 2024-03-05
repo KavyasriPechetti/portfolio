@@ -88,7 +88,7 @@ backdrop-filter: blur(10px);
 }
 .btn button{
   border-radius: 5px;
-  background-color: rgb(243, 215, 177);
+  background-color: rgb(130, 90, 240);
   /* margin-bottom: 25px; */
   height: 40px;
   
@@ -126,11 +126,17 @@ backdrop-filter: blur(10px);
   margin: 50px;
 }
 .tasks button{
+  background-color: rgb(130, 90, 240);
+
   margin: 30px;
   border-radius: 5px;
   height: 50px;
+
 }
 .icon{
+  display: flex;
+  align-items: center;
+ 
   height: 100px;
   width: 100px;
 
@@ -151,4 +157,8 @@ backdrop-filter: blur(10px);
   width: 350px;
   border-radius: 50%;
   margin:20px 50px 0px 500px;
+}
+.span{
+  margin-left: 20px;
+  font-size: larger;
 }

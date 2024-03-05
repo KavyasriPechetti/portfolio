@@ -12,11 +12,12 @@ function Contact() {
            <a href="https://github.com/KavyasriPechetti/myapp/branches"><h1 class="bi bi-github"></h1></a>
            </div>
            <div  className="icon">
-           <h3 class="bi bi-envelope">kavyasripechetti@gmail.com</h3>
+           <div><h3 class="bi bi-envelope"></h3></div>
+           <div><span className="span">kavyasripechetti@gmail.com</span></div>
            </div>
            <div  className="icon">
            <h3 class="bi bi-whatsapp"></h3>
-           <h3>9381495905</h3>
+           <span  className="span">9381495905</span>
            </div>
         </div>
         <div>
